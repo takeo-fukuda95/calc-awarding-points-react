@@ -2,3 +2,96 @@
   width: 700px;
   height: 350px;
 }
+
+.infoContainer {
+  margin-top: 30px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.transactionsContainer {
+  flex: 1 1;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transactionsContainerHeader {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.transactionsContainerBody {
+  padding: 10px;
+}
+
+.transactionsContainerBody > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.transactionsContainerBody > div span {
+  font-size: 18px;
+}
+
+.pointsContainer {
+  flex: 1 1;
+}
+
+.totalPointsContainer {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.monthlyPointsContainer {
+  border: 1px solid #ddd;
+}
+
+.monthlyPointsContainerHeader {
+  font-weight: bold;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.monthlyPointsContainerHeaderTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.monthlyPointsContainerHeaderCaption {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.monthlyPointsContainerBody {
+  padding: 10px; 
+}
+
+.eachMonthPointsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.eachMonthPointsContainer span {
+  font-size: 18px;
+}
